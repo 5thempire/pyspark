@@ -1,7 +1,8 @@
 # PySpark
 
-* [spark:latest](images/base/Dockerfile)
-* [pyspark:latest](images/pyspark/Dockerfile)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/5thempire/pyspark.svg) 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/5thempire/pyspark.svg)
+![GitHub](https://img.shields.io/github/license/5thempire/pyspark.svg)
 
 PySpark is a unified analytics engine. For documentation you should check [Spark](https://spark.apache.org/) and [PySpark](https://spark.apache.org/docs/2.4.3/api/python/index.html).
 
