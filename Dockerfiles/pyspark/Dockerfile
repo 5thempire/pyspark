@@ -1,4 +1,4 @@
-FROM 5thempire/pyspark:base-alpine
+FROM 5thempire/spark:latest
 LABEL  maintainer "developers@5thempire.pt"
 
 # PYTHON
