@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  spark:
+    image: 5thempire/pyspark:latest
+    container_name: spark
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./code:/opt/pyspark
+    ports:
+      - "8080:8080"
+      - "8888:8888"
